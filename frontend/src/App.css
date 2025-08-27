@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  /* Backgrounds */
+  --color-bg-900: #141420; /* fundo principal (quase preto) */
+  --color-bg-800: #1e1e2b; /* colunas/cards */
+  --color-bg-700: #2a2a3a; /* hover, bordas sutis */
+
+  /* Text */
+  --color-text-100: #f1f1f5; /* branco suave */
+  --color-text-300: #ccccd6; /* cinza claro */
+  --color-text-500: #9999a8; /* cinza médio */
+
+  /* Primary (ações, botões principais) */
+  --color-primary-500: #3dd9b2; /* mint principal */
+  --color-primary-400: #57e0bd;
+  --color-primary-600: #2fb391;
+
+  /* Status (para colunas ou badges) */
+  --color-pending: #f5c542; /* amarelo - Pending */
+  --color-doing: #6c63ff; /* azul violeta - In Progress */
+  --color-done: #4caf7d; /* verde - Completed */
+  --color-danger: #e0564c; /* vermelho para delete/alertas */
+}

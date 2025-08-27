@@ -1,0 +1,29 @@
+@todos_dotnet_HostAddress = http://localhost:5081
+
+### Listar todos os todos
+GET {{todos_dotnet_HostAddress}}/api/todoitems
+
+### Criar novo todo
+POST {{todos_dotnet_HostAddress}}/api/todoitems
+Content-Type: application/json
+
+{
+  "title": "Estudar ASP.NET",
+  "description": "Praticar CRUD com SQLite",
+  "status": "pending"
+}
+
+### Atualizar todo
+PUT {{todos_dotnet_HostAddress}}/api/todoitems/1
+Content-Type: application/json
+
+{
+   "id": 1,
+    "title": "Estudar ASP.NET Core",
+    "description": "Adicionar Status dinâmico",
+    "status": "InProgress"
+}
+
+### Deletar todo
+DELETE {{todos_dotnet_HostAddress}}/api/todoitems/1
+
