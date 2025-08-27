@@ -32,3 +32,25 @@ Cada tarefa deve conter:
 
 - Disponibilizar o código em um repositório público no **GitHub**.
 - Incluir instruções no **README** para rodar a aplicação.
+
+## Pré-requisitos
+
+- Node.js v18 ou superior
+- npm
+- .NET SDK 7 ou superior
+
+## Instruções
+
+```bash
+git clone https://github.com/Lispaum/todo-app.git
+cd todo-app
+- git clone https://github.com/Lispaum/todo-app.git
+- npm run install:all
+- (abra uma terminal) npm run dev:frontend
+- (abra uma terminal) npm run dev:backend
+
+## Links
+
+Site: http://localhost:5173/
+Swagger: http://localhost:5081/swagger/index.html
+```
