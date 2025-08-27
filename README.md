@@ -44,13 +44,22 @@ Cada tarefa deve conter:
 ```bash
 git clone https://github.com/Lispaum/todo-app.git
 cd todo-app
-- git clone https://github.com/Lispaum/todo-app.git
-- npm run install:all
-- (abra uma terminal) npm run dev:frontend
-- (abra uma terminal) npm run dev:backend
+npm run install:all
+```
+
+Abre um novo terminal
+
+```bash
+npm run dev:frontend
+```
+
+Abre um novo terminal
+
+```bash
+npm run dev:backend
+```
 
 ## Links
 
-Site: http://localhost:5173/
-Swagger: http://localhost:5081/swagger/index.html
-```
+Site: [http://localhost:5173/]
+Swagger: [http://localhost:5081/swagger/index.html]
